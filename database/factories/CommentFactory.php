@@ -18,7 +18,8 @@ class CommentFactory extends Factory
     {
         return [
             'user_id'=> random_int(1,11),
-            'text' => fake()->name()
+            'text' => fake()->name(),
         ];
     }
 }
+
